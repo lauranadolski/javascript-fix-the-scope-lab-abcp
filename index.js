@@ -25,5 +25,5 @@ var funkyFunction = function() {
 var theFunk = theFunkyStringer();
 
 function theFunkyStringer() {
-  return (string.funkyFunction());
+  return String(funkyFunction());
 }
