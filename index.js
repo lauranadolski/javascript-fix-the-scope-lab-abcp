@@ -22,6 +22,8 @@ var funkyFunction = function() {
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-var theFunk = theFunkyStringer() {
-  concole.log(funkyFunction());
+var theFunk = theFunkyStringer();
+
+function theFunkyStringer() {
+  return(funkyFunction());
 }
